@@ -1,0 +1,16 @@
+presubmits:
+- name: pull-test-infra-yamllint
+  always_run: true
+  decorate: true
+  spec:
+    containers:
+    - image: alpine
+      command: ["/bin/printenv"]
+postsubmits:
+- name: push-test-infra-yamllint
+  always_run: true
+  decorate: true
+  spec:
+    containers:
+    - image: alpine
+      command: ["/bin/printenv"]
