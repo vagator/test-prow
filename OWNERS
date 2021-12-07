@@ -1,0 +1,6 @@
+filters:
+  ".*":
+    reviewers:
+      - rajaskakodkar
+    approvers:
+      - rajaskakodkar
