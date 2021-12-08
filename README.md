@@ -2,6 +2,4 @@
 
 testing prow.
 
-testing prow
-
-trying to merge PRs
+Testing PRs merged with prow.
